@@ -1,0 +1,42 @@
+.topbar{
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+.topbar .container{
+    display: flex;
+    margin-top: 0px;
+    z-index: 5 !important;
+}
+.topbar-logo-left{
+    flex: 5;
+}
+.topbar-logo-left img{
+    margin-right: auto;
+    width: 245px;
+    height: 75px;
+    padding: 10px;
+}
+.topbar-menu-right{
+    flex: 6;
+    margin-right: auto;
+    border: 0px 1px solid ;
+    display: flex;
+}
+.topbar-menu-right-link{
+    padding: 20px 30px;
+    border: none;
+    width: 74%;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+    margin-left: auto;
+    background-color: #fff;
+    
+
+}
+.topbar-menu-right a{
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--third-color);
+    text-decoration: none;
+}

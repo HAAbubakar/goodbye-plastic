@@ -1,0 +1,107 @@
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 196px 0px;
+}
+.section1-first{
+    flex: 4;
+    padding: 0px 0px;
+    margin: 20px 0px;
+    position: relative;
+    
+}
+.section1-image{
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0px 10px;
+    box-shadow: 1px 2px 3px 1px #cbc9c9 !important;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.section1-image img{
+    width: 180px;
+    height: 180px;
+    filter: grayscale(100%);
+    transition: transform 0.3s ease;
+}
+
+.section1-first:hover .section1-image{
+    overflow: inherit;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 4px 11px 0px #cbc9c9 !important;
+}
+.section1-first:hover .section1-image > div{
+    transform: translateY(-120px);
+
+}
+.section1-first:hover img{
+    background-color: var(--secondary-color);
+    filter: unset;
+    border: none;
+    border-radius: 80%;
+
+}
+.section1-first:hover .section1-image{
+    border-radius: 20px 20px 5px 5px;
+}
+
+
+.section1-first .section1-image > div{
+    position: relative;
+}
+.section1-first:hover .section1-image > div::before {
+    content: '';
+    width: 95px;
+    height: 20px;
+    background: white;
+    position: absolute !important;
+    top: 90px;
+    left: -9px;
+    z-index: 111;
+    border-radius: 0px 30px 30px 0;
+}
+.section1-first:hover .section1-image > div::after {
+    content: '';
+    width: 95px;
+    height: 20px;
+    background: white;
+    position: absolute !important;
+    top: 90px;
+    right: -9px;
+    z-index: 111;
+    border-radius: 30px 0 0 30px;
+}
+.section1-text{
+    display: none;
+}
+.section1-first:hover .section1-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 20px 0px;
+    position: absolute;
+    text-align: center !important;
+    bottom: 0;
+    color: #ffffff;
+    align-items: center;
+}
+.section1-first:hover .section1-text h2{
+    padding: 0;
+    margin: 0;
+    text-align: center !important;
+    color: #ffffff;
+    line-height: 33px;
+    font-family: 'Catamaran', sans-serif;
+}
+.section1-first:hover .section1-text p{
+    padding: 0;
+    margin: 0;
+    text-align: center !important;
+    color: #ffffff;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+}
