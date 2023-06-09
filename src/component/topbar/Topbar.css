@@ -28,15 +28,16 @@
     border: none;
     width: 74%;
     text-align: center;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 12px 12px;
     margin-left: auto;
     background-color: #fff;
+    box-shadow: 0px 2px 16px 6px #1a191924;
     
 
 }
 .topbar-menu-right a{
     padding: 10px 20px;
     font-family: 'Poppins', sans-serif;
-    color: var(--third-color);
+    color: #28282890;
     text-decoration: none;
 }

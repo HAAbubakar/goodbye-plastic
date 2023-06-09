@@ -1,3 +1,29 @@
+.section3-image{
+  overflow: hidden;
+}
+.section3-write p{
+  z-index: 9999;
+  position: relative;
+   margin-right: 10px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 17px;
+   font-weight: 400;
+   color: var(--third-color);
+   text-align: center;
+
+}
+.section3-write h1{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+  text-align: center;
+  color: var(--primary-color);
+  text-transform: uppercase;
+
+}
+.section3-image{
+  position: relative;
+}
 .section-gallery {
     overflow: hidden;
     white-space: nowrap;
@@ -24,15 +50,51 @@
   .section3-image{
     width: 100%;
   }
-  .section3-image .section-gallery::before{
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 20%;
-    background-color: #fff;
+  .section3-image::before{
+    content: "";
+    width: 120%;
+    height: 225px;
+    border-radius: 150%;
+    display: block;
+    position: absolute;
+    z-index: 999;
+    top: -110px;
+    left: -10%;
+    background: #fff;
   }
-  .section3-image .section-gallery::after{
+  .section3-image::after{
+    content: "";
+    width: 120%;
+    height: 225px;
+    border-radius: 150%;
+    display: block;
+    position: absolute;
+    z-index: 999;
+    bottom: -110px;
+    left: -10%;
+    background: #fff;
+  }
+  .button-1{
     width: 100%;
-    border: 1px solid black;
-    border-radius: 20%;
+    position: relative;
+    z-index: 999;
+    text-align: center;
+  }
+  .button-1 a{
+    text-align: center;
+    padding: 13px 35px;
+    border-radius: 40px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .button-1 a:hover{
+    border: 1px solid var(--primary-color);
+    text-align: center;
     background-color: #fff;
+    color: var(--primary-color);
+
   }

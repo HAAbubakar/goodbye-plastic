@@ -1,0 +1,43 @@
+.main-section4{
+    margin-top: 100px;
+}
+.section4-box{
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 3px #9d9b9b57;
+    height: 100%;
+    text-align: center;
+}
+.section4-box img{
+    width: 56px;
+    height: 56px;
+    margin: 10px
+
+}
+.main-section4 h1{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.main-section4 h2{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+.main-section4 p{
+    z-index: 9999;
+    position: relative;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--third-color);
+    text-align: center;
+}

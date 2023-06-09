@@ -25,9 +25,11 @@
     width: 180px;
     height: 180px;
     filter: grayscale(100%);
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
 }
-
+.section1-first .section1-image > div{
+    transition: transform 1s ease;
+}
 .section1-first:hover .section1-image{
     overflow: inherit;
     background-color: var(--secondary-color);
@@ -52,8 +54,10 @@
 .section1-first .section1-image > div{
     position: relative;
 }
-.section1-first:hover .section1-image > div::before {
+.section1-first .section1-image > div::before {
+    opacity: 0;
     content: '';
+    transition-delay: .9s;
     width: 95px;
     height: 20px;
     background: white;
@@ -63,8 +67,14 @@
     z-index: 111;
     border-radius: 0px 30px 30px 0;
 }
-.section1-first:hover .section1-image > div::after {
+.section1-first:hover .section1-image > div::before {
+    opacity: 1;
+
+}
+.section1-first .section1-image > div::after {
+    opacity: 0;
     content: '';
+    transition-delay: .9s;
     width: 95px;
     height: 20px;
     background: white;
@@ -74,22 +84,35 @@
     z-index: 111;
     border-radius: 30px 0 0 30px;
 }
+.section1-first:hover .section1-image > div::after {
+    opacity: 1;
+}
 .section1-text{
-    display: none;
+    /* display: none; */
+    opacity: 0;
+}
+
+.section1-first .section1-text{
+    position: absolute;
+    pointer-events: none;
+    transition: transform 1s ease;
+    transform: translateY(150px);
+
 }
 .section1-first:hover .section1-text{
     display: flex;
+    opacity: 1;
+    transform: translateY(0);
     flex-direction: column;
     width: 100%;
     padding: 20px 0px;
     margin: 20px 0px;
-    position: absolute;
     text-align: center !important;
     bottom: 0;
     color: #ffffff;
     align-items: center;
 }
-.section1-first:hover .section1-text h2{
+.section1-first .section1-text h2{
     padding: 0;
     margin: 0;
     text-align: center !important;
@@ -97,7 +120,7 @@
     line-height: 33px;
     font-family: 'Catamaran', sans-serif;
 }
-.section1-first:hover .section1-text p{
+.section1-first .section1-text p{
     padding: 0;
     margin: 0;
     text-align: center !important;
