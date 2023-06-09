@@ -1,0 +1,49 @@
+
+.main-section7{
+    margin-top: 100px;
+    width: 100%;
+}
+.main-section7 h1{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.main-section7 .row{
+    margin-top: 3%;
+}
+.section7-item{
+    position: relative;
+  }
+.section7-item img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.zoom-in {
+    position: absolute;
+    top: 50%;
+    transform: scale(0) translateY(-50%);
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    width: 80%;
+    height: 85%;
+    transition: .3s ease;
+    border-radius: 10px;
+    margin: 1% 10%;
+    text-align: center;
+    opacity: 0.7;
+  }
+  
+.section7-item:hover .zoom-in {
+    transform: scale(1) translateY(-50%);
+  }
+.section7-item i{
+    position: absolute;
+    bottom: 30% !important;
+    font-size: 80px;
+    right: 30%;
+    color: #fff;
+}
