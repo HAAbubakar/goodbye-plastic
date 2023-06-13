@@ -9,6 +9,7 @@ import Section5 from "./component/section5/Section5";
 import Section6 from "./component/section6/Section6";
 import Section7 from "./component/section7/Section7";
 import Section8 from "./component/section8/Section8";
+import Footer from "./component/footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Section6/>
       <Section7/>
       <Section8/>
+      <hr/>
+      <Footer/>
     </div>
   );
 }

@@ -41,3 +41,7 @@
     color: #28282890;
     text-decoration: none;
 }
+.topbar-menu-right a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
