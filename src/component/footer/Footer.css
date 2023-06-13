@@ -1,5 +1,8 @@
 .main-footer{
-    margin: 30px 0px;
+    padding-top: 30px;
+}
+.main-footer .container{
+    margin-top: 50px;
 }
 .main-footer .col-lg-4{
     padding: 10px;
@@ -8,15 +11,16 @@
     padding: 10px;
 }
 .main-footer img{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: -13px;
     
 }
 .main-footer p{
     margin-bottom: 10px;
     color: var(--third-color);
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 .main-footer i{
     color: #fff;
@@ -35,7 +39,7 @@
     color: var(--secondary-color);
     text-transform: uppercase;
     font-family: 'Catamaran', sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 26px;
 }
 .main-footer a{
@@ -44,8 +48,9 @@
     text-decoration: none;
     text-transform: capitalize;
     margin-bottom: 10px;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2;
     color: var(--third-color);
 }
 .main-footer a:hover{
@@ -59,7 +64,7 @@
     color: var(--secondary-color);
     text-transform: uppercase;
     font-family: 'Catamaran', sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 26px;
     margin-left: 0;
 }
@@ -67,7 +72,7 @@
     color: var(--third-color);
     text-transform: uppercase;
     font-family: 'Catamaran', sans-serif;
-    font-weight: 800;
+    font-weight: 550;
     font-size: 16px;
     margin-left: 3px;
 
@@ -76,8 +81,34 @@
 .footer-section3 p{
     margin-bottom: 10px;
     color: var(--third-color);
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     margin-left: 3px;
+}
+.footer-section3 .flags-text{
+    display: flex;
+    flex-direction: row;
+}
+.flags-text p{
+    margin-left: 10px;
+}
+.flags-text img{
+    margin-bottom: 14px;
+    margin-top: 0;
+    width: 10%;
+}
+.rights-text{
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.rights-text p{
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 6px;
 }

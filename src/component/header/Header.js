@@ -15,7 +15,7 @@ function Header() {
             <img src="Slider-1.png" class="d-block w-100" alt="image"/>
             <div class="carousel-caption d-none d-md-block">
               <div className='container'>
-                <div className='col-md-6'>
+                <div className='col-md-5'>
 
                   <h2>WHY Good-Bye Plastic?</h2>
                   <p>A revolution doesn’t happen in a day! We at Good-Bye Plastic are here to initiate a revolution against the usage of plastic. We are here to help you say Good-Bye to your daily usage of Plastic by providing alternatives for those usages with sustainable and eco-friendly solutions.</p>
@@ -32,7 +32,7 @@ function Header() {
             <img src="Slider-2.png" class="d-block w-100" alt="image"/>
             <div class="carousel-caption d-none d-md-block">
               <div className='container'>
-                <div className='col-md-6'>
+                <div className='col-md-5'>
 
                   <h2>WHY Good-Bye Plastic?</h2>
                   <p>A revolution doesn’t happen in a day! We at Good-Bye Plastic are here to initiate a revolution against the usage of plastic. We are here to help you say Good-Bye to your daily usage of Plastic by providing alternatives for those usages with sustainable and eco-friendly solutions.</p>
@@ -49,7 +49,7 @@ function Header() {
             <img src="Slider-3.png" class="d-block w-100" alt="image"/>
             <div class="carousel-caption d-none d-md-block">
               <div className='container'>
-                <div className='col-md-6'>
+                <div className='col-md-5'>
 
                   <h2>WHY Good-Bye Plastic?</h2>
                   <p>A revolution doesn’t happen in a day! We at Good-Bye Plastic are here to initiate a revolution against the usage of plastic. We are here to help you say Good-Bye to your daily usage of Plastic by providing alternatives for those usages with sustainable and eco-friendly solutions.</p>

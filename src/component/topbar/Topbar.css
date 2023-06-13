@@ -3,6 +3,34 @@
     width: 100%;
     z-index: 5;
 }
+.top-topbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: var(--third-color);
+   
+}
+.top-topbar .container{
+    flex-direction: row;
+    justify-content: right;
+}
+.top-topbar i{
+    color: var(--primary-color);
+    margin-right: 10px;
+    padding-top: 4px;
+}
+
+.top-topbar p{
+    color: #ffffff;
+    margin-right: 10px;
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+   font-size: 11px;
+   font-weight: 400;
+   padding-top: 5px;
+    
+}
 .topbar .container{
     display: flex;
     margin-top: 0px;
