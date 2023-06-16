@@ -30,7 +30,7 @@ export default function SimpleSlider() {
       {
         breakpoint: 414,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: false,
           dots: false,
@@ -43,24 +43,24 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings}>
       <div className="item">
-        <img src="section5-slider1.png"/>
-        <div className="product-name">abcd</div>
+        <img src="section3-image-1.png"/>
+        
       </div>
       <div  className="item">
-      <img src="section5-slider2.png"/>
-      <div className="product-name">abcd</div>
+      <img src="section3-image-2.png"/>
+      
       </div>
       <div  className="item">
-      <img src="section5-slider3.png"/>
-      <div className="product-name">abcd</div>
+      <img src="section3-image-3.png"/>
+      
+      </div>
+      <div  className="item">
+      <img src="section3-image-4.png"/>
+      
       </div>
       <div  className="item">
       <img src="section5-slider4.png"/>
-      <div className="product-name">abcd</div>
-      </div>
-      <div  className="item">
-      <img src="section5-slider4.png"/>
-      <div className="product-name">abcd</div>
+      
       </div>
     </Slider>
   );

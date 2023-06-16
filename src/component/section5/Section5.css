@@ -4,7 +4,7 @@
 .main-section5 h1{
     font-family: 'Catamaran', sans-serif;
     font-size: 44px;
-    font-weight: 800;
+    /* font-weight: 800; */
     text-align: center;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -43,8 +43,9 @@
     fill: #fff;
 }
 .main-section5 .slick-prev {
-    left: -50px;
+    left: -52px;
     fill: #fff;
+    z-index: 999;
 }
 .main-section5 .slick-prev, .slick-next{
     font-size: 60px !important;
@@ -63,4 +64,25 @@
     border-radius: 100% !important;
     background: var(--secondary-color) !important;
     box-shadow: 10px 10px 39px 0px #27A3D950!important;
+}
+
+@media screen and (max-width: 856px){
+    .main-section5 .slick-prev{
+        left: -5%;
+        z-index: 999;
+    }
+    .main-section5 .slick-next{
+        left: 98%;
+
+    }
+}
+@media screen and (max-width: 414px){
+    .main-section5 .slick-prev{
+        left: -3%;
+        z-index: 999;
+    }
+    .main-section5 .slick-next{
+        left: 90%;
+
+    }
 }

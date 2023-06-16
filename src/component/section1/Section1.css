@@ -24,3 +24,22 @@
     border-radius: 10px;
     box-shadow: 1px 1px 7px 3px #9d9b9b57;
 }
+
+@media screen and (max-width: 768px) {
+    .section1{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .section1-img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .section1-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

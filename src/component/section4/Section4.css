@@ -16,7 +16,7 @@
 .main-section4 h1{
     font-family: 'Catamaran', sans-serif;
     font-size: 44px;
-    font-weight: 800;
+    /* font-weight: 800; */
     text-align: center;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -40,4 +40,11 @@
     font-weight: 400;
     color: var(--third-color);
     text-align: center;
+}
+
+
+@media screen and (max-width: 991px){
+    .main-section4 .col-lg-4{
+        margin-bottom: 10px;
+    }
 }

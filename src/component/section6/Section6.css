@@ -22,9 +22,22 @@
 .main-section6 h1{
     font-family: 'Catamaran', sans-serif;
     font-size: 40px;
-    font-weight: 800;
+    /* font-weight: 800; */
     color: var(--secondary-color);
     text-transform: uppercase;
     margin-top: 20px;
     
   }
+
+
+  @media screen and (max-width: 575px){
+    .main-section6 h1{
+        padding: 10px;
+    }
+    .main-section6 p{
+        padding: 10px;
+    }
+    .main-section6 .button-2{
+        padding: 10px;
+    }
+}

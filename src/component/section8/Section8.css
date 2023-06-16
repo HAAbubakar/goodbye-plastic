@@ -4,6 +4,9 @@
     padding-bottom: 100px;
     position: relative;
 }
+.section8-1{
+    height: 200px;
+}
 .section8-write .row .col-lg-6:nth-child(2){
     position: relative;
 }
@@ -82,23 +85,113 @@
 .video-react-icon-play-arrow:before, .video-react .video-react-bezel .video-react-bezel-icon-play:before, .video-react .video-react-play-control:before, .video-react .video-react-big-play-button:before{
     top: 20% !important;
 }*/
+@media screen and (max-width: 991px){
+    .section8-1 {
+        height: 400px;
+        margin: 20px;
+    }
+    .section-8-object-1 {
+        width: 23%;
+        position: absolute;
+        top: 10px;
+        left: 1px;
+        animation: object-1 3s infinite;
+        transform: translateY(-10%);
+    }
+    .section8-image {
+        width: 50%;
+        position: absolute;
+        bottom: 70%;
+        right: 25%;
+    }
+    .section-8-object-2 {
+        width: 13%;
+        position: absolute;
+        bottom: 56%;
+        animation: object-2 3s infinite;
+        left: 80%;
+    }
+    .back-image {
+        width: 100%;
+    }
+    .section-video-image img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .btn-image {
+        top: 50%;
+        width: 15%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (max-width: 575px){
+    .section8-1 {
+        height: 200px;
+        margin: 20px;
+    }
+    .section-8-object-1 {
+        width: 28%;
+        position: absolute;
+        top: 10px;
+        left: -27px;
+        animation: object-1 3s infinite;
+        transform: translateY(-10%);
+    }
+    .section8-image {
+        width: 71%;
+        position: absolute;
+        bottom: 75%;
+        right: 11%;
+    }
+    
+    .section-8-object-2 {
+        width: 13%;
+        position: absolute;
+        bottom: 63%;
+        animation: object-2 3s infinite;
+        left: 60%;
+    }
+    .back-image {
+        width: 100%;
+    }
+    .btn-image img {
+        left: 0%;
+        
+    }
+    .section-video-image img {
+        border-radius: 10px;
+    }
+    .btn-image {
+       left: 58%;
+
+    }
+}
+
 
 
 @keyframes object-2{
+    0% {
+        transform: translateY(-5%); 
+    }
     50% {
-        transform: translateY(10%);
-      }
-      50% {
-        transform: translateY(-10%); 
+        transform: translateY(5%);
+    }
+    100% {
+        transform: translateY(-5%); 
       }
       
 }
 @keyframes object-1{
+    0% {
+      transform: translateY(0%); 
+      opacity: 1;
+      }
      50% {
         transform: translateY(-10%);
-        opacity: 0;
       }
-      50% {
+      100% {
         transform: translateY(0%); 
         opacity: 1;
         }

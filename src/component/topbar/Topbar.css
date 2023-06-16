@@ -1,3 +1,4 @@
+
 .topbar{
     position: absolute;
     width: 100%;
@@ -9,11 +10,13 @@
     flex-direction: row;
     justify-content: right;
     background-color: var(--third-color);
+    padding: 10px 0px;
    
 }
 .top-topbar .container{
     flex-direction: row;
     justify-content: right;
+    display: flex;
 }
 .top-topbar i{
     color: var(--primary-color);
@@ -29,18 +32,22 @@
    font-size: 11px;
    font-weight: 400;
    padding-top: 5px;
+   margin-bottom: 0;
     
 }
-.topbar .container{
+.bg-light{
+    background-color: unset;
+}
+.navbar{
+    padding: 0 ;
+}
+.navbar .container{
     display: flex;
     margin-top: 0px;
     z-index: 5 !important;
 }
-.topbar-logo-left{
-    flex: 5;
-}
-.topbar-logo-left img{
-    margin-right: auto;
+
+.navbar-brand{
     width: 245px;
     height: 75px;
     padding: 10px;
@@ -51,10 +58,9 @@
     border: 0px 1px solid ;
     display: flex;
 }
-.topbar-menu-right-link{
+.navbar-expand-lg .navbar-nav-scroll{
     padding: 20px 30px;
     border: none;
-    width: 74%;
     text-align: center;
     border-radius: 0px 0px 12px 12px;
     margin-left: auto;
@@ -63,13 +69,42 @@
     
 
 }
-.topbar-menu-right a{
-    padding: 10px 20px;
+.navbar-light .navbar-nav .nav-link{
+    padding: 10px 25px;
     font-family: 'Poppins', sans-serif;
     color: #28282890;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: transparent;
 }
-.topbar-menu-right a:hover {
+.navbar-light .navbar-nav .nav-link:hover {
     color: var(--primary-color);
-    text-decoration: underline;
+    text-decoration: underline 2px var(--secondary-color);
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+
+
+@media screen and (max-width:991px) {
+
+    .topbar{
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .navbar-collapse{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 414px){
+    .navbar-brand img{
+        width: 87%;
+    }
+    .top-topbar p{
+        margin-right: auto;
+    }
 }

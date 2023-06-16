@@ -9,12 +9,12 @@ function Section8() {
           <div className='row'>
             
 
-            <div className='col-lg-6'>
+            <div className='section8-1 col-lg-6  '>
               <img src='section8-object-1.png' className='section-8-object-1'/>
               <img src='section8-image.png' className='section8-image' />
               <img src='section8-object-2.png' className='section-8-object-2'/>
             </div>
-            <div className='col-lg-6 section-video-image'>
+            <div className='col-lg-6  section-video-image'>
 
                 {/* <Section8Video/> */}
               <div className='back-image'>

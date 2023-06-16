@@ -9,7 +9,7 @@ function Section7() {
                 popular this week
             </h1>
             <div className='row'>
-                <div className='col-lg-3 '>
+                <div className='col-md-3 col-sm-6 '>
                     <div className='section7-item'>
                     <img src='section7-1.png' alt='pic'/>
                     <div className='zoom-in'>
@@ -17,7 +17,7 @@ function Section7() {
                     </div>
                     </div>
                 </div>
-                <div className='col-lg-3 '>
+                <div className='col-md-3 col-sm-6'>
                     <div className='section7-item'>
                     <img src='section7-2.png' alt='pic'/>
                     <div className='zoom-in'>
@@ -25,7 +25,7 @@ function Section7() {
                     </div>
                     </div>
                 </div>
-                <div className='col-lg-3 '>
+                <div className='col-md-3 col-sm-6'>
                     <div className='section7-item'>
                     <img src='section7-3.png' alt='pic'/>
                     <div className='zoom-in'>
@@ -33,7 +33,7 @@ function Section7() {
                     </div>
                     </div>
                 </div>
-                <div className='col-lg-3 '>
+                <div className='col-md-3 col-sm-6'>
                     <div className='section7-item'>
                     <img src='section7-4.png' alt='pic'/>
                     <div className='zoom-in'>

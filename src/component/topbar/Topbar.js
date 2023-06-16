@@ -13,19 +13,30 @@ function Topbar() {
         <p>+1-602-481-3535</p>
         </div>
       </div>
-          <div className='container'>
-        <div className='topbar-logo-left'>
-            <img src='Logo.png'/>
-        </div>
-        <div className='topbar-menu-right'>
-            <div className='topbar-menu-right-link'>
-                <a href='#'>Home</a>
-                <a href='#'>Products</a>
-                <a href='#'>About us</a>
-                <a href='#'>Blog</a>
-            </div>
-        </div>
-        </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src='logo.png'/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav navbar-nav-scroll" >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">about us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </div>
   )
 }
