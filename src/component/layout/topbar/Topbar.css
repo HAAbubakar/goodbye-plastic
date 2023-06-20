@@ -3,6 +3,7 @@
     position: absolute;
     width: 100%;
     z-index: 5;
+    top: 0;
 }
 .top-topbar{
     width: 100%;
@@ -106,5 +107,15 @@
     }
     .top-topbar p{
         margin-right: auto;
+    }
+}
+@media screen and (max-width: 320px){
+    .top-topbar{
+        display: none;
+    }
+    .navbar-brand{
+        width: 200px;
+        height: 60px;
+        padding: 10px;
     }
 }

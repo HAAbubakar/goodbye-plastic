@@ -1,0 +1,46 @@
+.product-topbar{
+    margin-top: 144px;
+}
+.product-topbar form{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 30%;
+}
+.product-topbar input{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 66%;
+    border: none;
+    padding: 5px;
+}
+.product-topbar input:focus-visible{
+    border: none;
+    outline: none;
+}
+.product-topbar button{
+    border: none;
+    background: none;
+    margin-right: 10px;
+}
+.wishlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.product-topbar .col-lg-5 i {
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    padding: 6px;
+}
+.product-topbar .col-lg-5 p{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    padding-right: 10px !important;
+}

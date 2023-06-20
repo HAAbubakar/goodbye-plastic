@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topbar.css'
 
 function Topbar() {
@@ -22,10 +23,10 @@ function Topbar() {
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav navbar-nav-scroll" >
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <Link class="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">products</a>
+          <Link class="nav-link" to="/products">products</Link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">about us</a>
