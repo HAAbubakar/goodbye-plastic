@@ -1,11 +1,47 @@
 .product-topbar{
     margin-top: 144px;
 }
+.product-topbar .col-lg-6{
+    display: flex;
+    align-items: center;
+}
+._1Lxpd {
+    width: 100px !important;
+    height: 80% !important;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #CDDC39; */
+}
+._30Ipg {
+    background: none !important;
+    box-shadow: 0 !important;
+    border-radius: 5px;
+    display: flex;
+    height: 80% !important;
+    width: 100px !important;
+    position: relative;
+    padding: 0 10px;
+    align-items: center;
+    cursor: pointer;
+}
+._1KMXW {
+    position: absolute !important;
+    z-index: 999 !important;
+    border-radius: 10px 10px 0px 0px !important ;
+}
+._3LhE5 input{
+    outline: none !important;
+    border: none !important;
+    border-radius: 3px !important;
+    background: #f0f0f0 !important;
+    padding: 5px !important;
+    width: 94% !important;
+}
 .product-topbar form{
     display: flex;
     flex-direction: row;
     justify-content: right;
-    border: 1px solid;
+    border: 1px solid var(--primary-color);
     border-radius: 20px;
     width: 30%;
 }
@@ -14,13 +50,17 @@
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-    width: 66%;
+    width: 72%;
     border: none;
     padding: 5px;
+    border-radius: 20px;
 }
 .product-topbar input:focus-visible{
     border: none;
     outline: none;
+}
+.fa-solid, .fas{
+    color: var(--secondary-color);
 }
 .product-topbar button{
     border: none;
@@ -36,11 +76,18 @@
     font-weight: 400;
     margin: 0;
     text-align: center;
-    padding: 6px;
+    padding: 5px;
+    color: var(--secondary-color);
 }
 .product-topbar .col-lg-5 p{
     padding: 0;
     margin: 0;
     text-transform: capitalize;
     padding-right: 10px !important;
+}
+.product-topbar .col-lg-5 img{
+    width: 3%;
+    height: 3%;
+    padding-top: 5px;
+    margin-right: 6px;
 }
