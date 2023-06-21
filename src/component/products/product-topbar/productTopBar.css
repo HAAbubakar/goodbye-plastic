@@ -1,5 +1,6 @@
 .product-topbar{
     margin-top: 144px;
+    margin-bottom: 20px;
 }
 .product-topbar .col-lg-6{
     display: flex;
@@ -86,8 +87,28 @@
     padding-right: 10px !important;
 }
 .product-topbar .col-lg-5 img{
-    width: 3%;
-    height: 3%;
+    width: 15px;
+    height: 20px;
     padding-top: 5px;
     margin-right: 6px;
+}
+@media screen and (max-width: 991px) {
+    .product-topbar{
+        margin-top: 0px;
+    }
+    .product-topbar input{
+        padding-left: 16px;
+    }
+    .product-topbar form{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .product-topbar .col-lg-6{
+        margin-bottom: 20px;
+    }
+    .product-topbar form{
+        width: 50%;
+        margin-left: auto;
+    }
 }

@@ -1,12 +1,15 @@
 import React from 'react'
-import ProductTopBar from '../component/products/product-topbar/ProductTopBar'
-import ProductSidebar from '../component/products/sidebar/productSidebar'
-import PageMainfram from '../component/products/mainfram/pageMainfram'
+import ProductTopBar from '../../component/products/product-topbar/ProductTopBar'
+import ProductSidebar from '../../component/products/sidebar/productSidebar'
+import PageMainfram from '../../component/products/mainfram/pageMainfram'
+import './productMain.css'
 
 function Products() {
   return (
-    <div>
+    <div >
         <ProductTopBar />
+        <div className='main-product-page'>
+
         <div className='container'>
           <div className='row'>
             <div className='col-sm-3'>
@@ -16,6 +19,7 @@ function Products() {
                 <PageMainfram/>
             </div>
           </div>
+        </div>
         </div>
     </div>
   )

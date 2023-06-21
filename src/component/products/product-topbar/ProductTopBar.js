@@ -19,7 +19,7 @@ function ProductTopBar() {
             <hr/>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6'>
+                <div className='col-lg-6 col-md-6'>
                     <Countrycode/>
                     <Countrycode/>
                     <form>
@@ -27,8 +27,8 @@ function ProductTopBar() {
                         <button type='submit'> <i class="fa-solid fa-magnifying-glass"></i> </button>
                     </form>
                 </div>
-                <div className='col-lg-1'></div>
-                <div className='col-lg-5'>
+                <div className='col-lg-1 col-md-1'></div>
+                <div className='col-lg-5 col-md-5'>
                     <div className='wishlist'>
                         <img src='ph_shopping-cart.png'/>
                         <p>shopping cart</p>
