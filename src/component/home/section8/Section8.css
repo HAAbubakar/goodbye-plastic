@@ -13,7 +13,7 @@
 .section-8-object-1{
     width: 15%;
     position: absolute;
-    top: 10px;
+    top: 24px;
     left: -5px;
     animation: object-1 3s infinite;
     transform: translateY(-10%);
@@ -27,7 +27,7 @@
 .section-8-object-2{
     width: 7%;
     position: absolute;
-    bottom: 20%;
+    bottom: 31%;
     animation: object-2 3s infinite;
     left: 26%;
 

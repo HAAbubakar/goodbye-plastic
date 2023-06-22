@@ -20,23 +20,24 @@
     position: relative;
 }
 .section-2-object-1{
-    width: 15%;
+    width: 13%;
     position: absolute;
     top: 10px;
     left: -5px;
-    animation: object-1 3s infinite;
+    animation: object-3 3s infinite;
     transform: translateY(-30%);
 }
 .section2-image{
-    width: 85%;
+    width: 75%;
     margin-top: 0;
+    margin-left: 50px;
 }
 .section-2-object-2{
     width: 70%;
     position: absolute;
-    top: -71px;
+    top: -100px;
     right: -210px;
-    animation: object-2 3s infinite;
+    animation: object-4 3s infinite;
 
 }
 .button-2{
@@ -94,23 +95,29 @@
     }
 }
 
-@keyframes object-2{
-    50% {
+@keyframes object-4{
+    0% {
         transform: translateY(10%);
       }
       50% {
         transform: translateY(0%); 
       }
+      100%{
+        transform: translateY(10%)
+      }
       
 }
-@keyframes object-1{
+@keyframes object-3{
      0% {
-        transform: translateY(-30%);
-        opacity: 0;
+        transform: translateY(-20%);
       }
      50% {
-        transform: translateY(0%); 
+        transform: translateY(50%); 
         opacity: 1;
         }
+    100% {
+            transform: translateY(-20%); 
+            opacity: 1;
+            }
       
 }
